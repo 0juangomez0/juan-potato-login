@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: url(./wallpaperbetter\ 1.png) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.form-login {
+    width: 700px;
+    height: 900px;
+    background-image: linear-gradient(#1C374D, #291e1e6e, #75001554);
+    padding: 100px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: gray;
+    font-size: 25px;
+
+
+}
+
+
+
+.form-login img {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+}
+
+.email-control {
+    background: url(./person_FILL1_wght500_GRAD200_opsz48.png);
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: 70px;
+    background-size: 30px;
+    border-radius: 4px;
+    padding: 2rem 4rem;
+    margin-bottom: 5rem;
+    border: solid 1px gray;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 3rem;
+
+
+
+}
+
+.password-control {
+    background: url(./key_FILL1_wght500_GRAD200_opsz48.png);
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: 70px;
+    background-size: 30px;
+    border-radius: 4px;
+    padding: 2rem 4rem;
+    border: solid 1px gray;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+
+.checkbox-name {
+    font-size: 15px;
+    margin-left: 70px;
+    margin-bottom: 5rem;
+}
+
+.login-buttom {
+    color: white;
+    width: 40%;
+    height: 3.5rem;
+    background-color: #5B1010;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+    font-weight: bold;
+    box-shadow: inset rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+input {
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+::placeholder {
+    color: white;
+}
